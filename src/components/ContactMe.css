@@ -1,0 +1,61 @@
+/* ContactMe.css */
+
+.contact-me {
+    background-color: #000000;
+    padding: 2rem 0;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .contact-me-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .contact-me-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-me-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 16px;
+  }
+  
+  label {
+    font-size: 1.1rem;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #000000;
+    color: white;
+  }
+  

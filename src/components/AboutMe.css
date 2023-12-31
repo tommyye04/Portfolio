@@ -1,0 +1,42 @@
+/* AboutMe.css */
+
+.about-me {
+    background-color: #000000;
+    padding: 2rem 0;
+    color:white;
+  }
+  
+  .about-me-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-me-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-me-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .text-box {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color:black;
+  }
+  
+
+  .text-box textarea {
+    width: 100%;
+    resize: vertical; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
