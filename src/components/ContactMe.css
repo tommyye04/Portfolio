@@ -59,3 +59,14 @@
     color: white;
   }
   
+  .additional-text{
+    background-color: #222;
+    padding: 1rem;
+    border: #333;
+    display: block;
+  }
+
+  .additional-text h3{
+    color: #00a2ff;
+    margin-bottom: 0.5rem;
+  }

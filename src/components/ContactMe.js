@@ -31,10 +31,10 @@ const ContactMe = () => {
         </div>
         <div className="additional-text">
           <h3>Get in touch</h3>
-          <div>
+          <p>
             <FontAwesomeIcon icon={faPhone} />
-            {""} 647-781-8203
-          </div>
+            {" : "} 647-781-8203
+          </p>
         </div>
       </div>
     </section>
