@@ -21,7 +21,7 @@ const Projects = () => {
   return (
     <section id="project" className="projects">
       <div className="projects-container">
-        <h2>My Projects</h2>
+        <h1>My Projects</h1>
         <div className="project-list">
           {projects.map((project, index) => (
             <div className="project" key={index}>
