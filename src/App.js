@@ -6,6 +6,7 @@ import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
+import Projects from "./components/Projects";
 import "./App.css";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -19,6 +20,7 @@ const App = () => {
       <HeroSection />
       <AboutMe />
       <ContactMe />
+      <Projects />
       <Footer />
     </div>
   );
