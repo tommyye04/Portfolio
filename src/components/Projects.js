@@ -6,9 +6,10 @@ import "./Projects.css";
 const Projects = () => {
   const projects = [
     {
-      title: "Project 1",
-      description: "Description of project 1.",
-      link: "https://github.com/your-username/project1",
+      title: "Disaster Tracker",
+      description:
+        "Read and write to a local database with the use of an interactive map.",
+      link: "https://github.com/tommyye04/WEC2024",
     },
     {
       title: "Project 2",
